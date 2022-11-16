@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'VelocityBloc',
-  tagline: 'Minimalist and Easy State Management Inspired from Dart Generics.',
+  tagline: 'Minimalist and Easy State Management Inspired from Dart Generics',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',

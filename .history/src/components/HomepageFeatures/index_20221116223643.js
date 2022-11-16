@@ -8,25 +8,28 @@ const FeatureList = [
     Svg: require('@site/static/img/easy_use.svg').default,
     description: (
       <>
-        VelocityBloc is easy to use to manage the states across the app.
+        Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly.
       </>
     ),
   },
   {
-    title: 'Clear Docs',
-    Svg: require('@site/static/img/flutter.svg').default,
+    title: 'Focus on What Matters',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        A clear docs provided for the widgets like Checkbox, Radio, etc.
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
   {
-    title: 'Less Code',
-    Svg: require('@site/static/img/less_code.svg').default,
+    title: 'Powered by React',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Minimalist codes to handle the states. It has VelocityInitialState and VelocityUpdateState.
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
       </>
     ),
   },

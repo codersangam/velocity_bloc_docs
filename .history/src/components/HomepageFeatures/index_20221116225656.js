@@ -13,11 +13,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Clear Docs',
+    title: 'Focus on What Matters',
     Svg: require('@site/static/img/flutter.svg').default,
     description: (
       <>
-        A clear docs provided for the widgets like Checkbox, Radio, etc.
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
