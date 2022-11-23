@@ -1,0 +1,27 @@
+---
+sidebar_position: 1
+---
+
+# Installation
+
+In the `pubspec.yaml` of your flutter project, add the following dependency:
+
+```yaml
+dependencies:
+  ...
+  velocity_bloc: <latest_version>
+```
+
+After adding the velocity_bloc in `pubspec.yaml`, run: 
+```html 
+flutter pub get
+```
+
+In your library add the following import:
+
+```dart
+import 'package:velocity_bloc/velocity_bloc.dart';
+```
+
+
+
