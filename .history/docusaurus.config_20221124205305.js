@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'VelocityBloc',
   tagline: 'Minimalist and Easy State Management Inspired from Dart Generics.',
-  url: 'https://velocitybloc.dev',
+  url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
