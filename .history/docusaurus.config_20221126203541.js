@@ -78,8 +78,6 @@ const config = {
         ],
       },
       footer: {
-
-        style: 'dark',
         logo: {
           alt: 'Meta Open Source Logo',
           src: 'img/main_logo.png',
@@ -87,7 +85,9 @@ const config = {
           width: 160,
           height: 51,
         },
+        style: 'dark',
         links: [
+
           {
             title: 'Docs',
             items: [

@@ -78,16 +78,15 @@ const config = {
         ],
       },
       footer: {
-
         style: 'dark',
-        logo: {
-          alt: 'Meta Open Source Logo',
-          src: 'img/main_logo.png',
-          href: 'https://opensource.fb.com',
-          width: 160,
-          height: 51,
-        },
         links: [
+          {
+            html: `
+                <a href="https://www.netlify.com" target="_blank" rel="noreferrer noopener" aria-label="Deploys by Netlify">
+                  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg" alt="Deploys by Netlify" width="114" height="51" />
+                </a>
+              `,
+          },
           {
             title: 'Docs',
             items: [

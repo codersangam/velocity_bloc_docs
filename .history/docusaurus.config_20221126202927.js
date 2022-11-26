@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/main_logo.png',
+  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -78,15 +78,7 @@ const config = {
         ],
       },
       footer: {
-
         style: 'dark',
-        logo: {
-          alt: 'Meta Open Source Logo',
-          src: 'img/main_logo.png',
-          href: 'https://opensource.fb.com',
-          width: 160,
-          height: 51,
-        },
         links: [
           {
             title: 'Docs',

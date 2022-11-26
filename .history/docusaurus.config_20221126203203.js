@@ -78,15 +78,7 @@ const config = {
         ],
       },
       footer: {
-
         style: 'dark',
-        logo: {
-          alt: 'Meta Open Source Logo',
-          src: 'img/main_logo.png',
-          href: 'https://opensource.fb.com',
-          width: 160,
-          height: 51,
-        },
         links: [
           {
             title: 'Docs',
@@ -97,23 +89,23 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
           {
             title: 'More',
             items: [
