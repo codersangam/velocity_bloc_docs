@@ -152,15 +152,6 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Contributor',
-          //   items: [
-          //     {
-          //       label: 'Sangam Singh (Ronnie)',
-          //       href: 'https://codersangam.com',
-          //     },
-          //   ],
-          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} VelocityBloc.`,
       },

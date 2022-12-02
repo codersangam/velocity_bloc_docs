@@ -21,7 +21,6 @@ function HomepageHeader() {
             Velocity Bloc Tutorial - 5min ⏱️
           </Link>
         </div>
-        <br></br>
         <span className={styles.indexCtasGitHubButtonWrapper}>
           <iframe
             className={styles.indexCtasGitHubButton}

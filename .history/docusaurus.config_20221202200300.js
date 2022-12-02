@@ -139,28 +139,15 @@ const config = {
                 href: 'https://codersangam.com',
               },
               {
-                label: 'Github',
-                href: 'https://github.com/codersangam',
-              },
-              {
                 label: 'Instagram',
-                href: 'https://instagram.com/codersangam',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Facebook',
-                href: 'https://facebook.com/codersangam',
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
-          // {
-          //   title: 'Contributor',
-          //   items: [
-          //     {
-          //       label: 'Sangam Singh (Ronnie)',
-          //       href: 'https://codersangam.com',
-          //     },
-          //   ],
-          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} VelocityBloc.`,
       },

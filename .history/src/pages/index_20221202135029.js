@@ -21,11 +21,10 @@ function HomepageHeader() {
             Velocity Bloc Tutorial - 5min ⏱️
           </Link>
         </div>
-        <br></br>
         <span className={styles.indexCtasGitHubButtonWrapper}>
           <iframe
             className={styles.indexCtasGitHubButton}
-            src="https://ghbtns.com/github-btn.html?user=codersangam&amp;repo=velocity_bloc&amp;type=star&amp;count=true&amp;size=large"
+            src="https://ghbtns.com/github-btn.html?user=iampawan&amp;repo=velocityx&amp;type=star&amp;count=true&amp;size=large"
             width={160}
             height={30}
             frameBorder="0"

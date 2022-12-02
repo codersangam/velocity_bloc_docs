@@ -97,23 +97,23 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/docusaurus',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/docusaurus',
+              },
+            ],
+          },
           {
             title: 'More',
             items: [
@@ -131,36 +131,6 @@ const config = {
               }
             ],
           },
-          {
-            title: 'Developer',
-            items: [
-              {
-                label: 'Sangam Singh (Ronnie)',
-                href: 'https://codersangam.com',
-              },
-              {
-                label: 'Github',
-                href: 'https://github.com/codersangam',
-              },
-              {
-                label: 'Instagram',
-                href: 'https://instagram.com/codersangam',
-              },
-              {
-                label: 'Facebook',
-                href: 'https://facebook.com/codersangam',
-              },
-            ],
-          },
-          // {
-          //   title: 'Contributor',
-          //   items: [
-          //     {
-          //       label: 'Sangam Singh (Ronnie)',
-          //       href: 'https://codersangam.com',
-          //     },
-          //   ],
-          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} VelocityBloc.`,
       },
