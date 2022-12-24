@@ -81,9 +81,9 @@ const config = {
 
         style: 'dark',
         logo: {
-          alt: 'Meta Open Source Logo',
+          alt: 'VB Logo',
           src: 'img/main_logo.png',
-          href: 'https://opensource.fb.com',
+          href: '/',
           width: 160,
           height: 51,
         },
@@ -137,6 +137,10 @@ const config = {
               {
                 label: 'Sangam Singh (Ronnie)',
                 href: 'https://codersangam.com',
+              },
+              {
+                label: 'Youtube',
+                href: 'https://youtube.com/@codersangam',
               },
               {
                 label: 'Github',

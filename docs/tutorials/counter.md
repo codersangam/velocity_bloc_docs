@@ -117,7 +117,7 @@ class _IncrementDecrementState extends State<IncrementDecrement> {
         title: Text(widget.title),
       ),
       body: BlocBuilder<VelocityBloc<int>, VelocityState<int>>(
-        bloc: incrementDecrementViewModel.incrementBloc,
+        bloc: incrementDecrementViewModel.counterBloc,
         builder: (context, state) {
           return Center(
             child: Column(
