@@ -56,6 +56,29 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'APZRBFEEXX',
+
+        // Public API key: it is safe to commit it
+        apiKey: '46f4d1f49a636a28c4d138778cc930c7',
+
+        indexName: 'velocitybloc',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+
+        //... other Algolia params
+      },
       navbar: {
         title: 'VelocityBloc',
         logo: {
@@ -75,6 +98,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+
         ],
       },
       footer: {
