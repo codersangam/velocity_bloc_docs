@@ -142,6 +142,10 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Pub',
+                href: 'https://pub.dev/packages/velocity_bloc'
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/codersangam/velocity_bloc',
               },
@@ -152,7 +156,7 @@ const config = {
               {
                 label: 'Demo App',
                 href: 'https://demo.velocitybloc.dev'
-              }
+              },
             ],
           },
           {
